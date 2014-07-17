@@ -1,4 +1,4 @@
 MoonRangerGame
 ==============
 
-A 2D rpg XNA based game.
+A 2D rpg XNAbased game[unfinished].
