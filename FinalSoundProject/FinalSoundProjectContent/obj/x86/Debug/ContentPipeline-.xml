@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Assets\Bg\AboutScreen.png</Source>
+      <Name>Assets\Bg\AboutScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\AboutScreen.xnb</Output>
+      <Time>2012-12-24T15:41:03.2493673-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\MainScreen.png</Source>
+      <Name>Assets\Bg\MainScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\MainScreen.xnb</Output>
+      <Time>2013-01-05T21:36:04.1186776-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\MenuScreen.png</Source>
+      <Name>Assets\Bg\MenuScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\MenuScreen.xnb</Output>
+      <Time>2012-12-24T15:41:03.2803711-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\PauseScreen.png</Source>
+      <Name>Assets\Bg\PauseScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\PauseScreen.xnb</Output>
+      <Time>2012-12-24T15:41:03.3133861-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\SettingScreen.png</Source>
+      <Name>Assets\Bg\SettingScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\SettingScreen.xnb</Output>
+      <Time>2012-12-24T15:41:03.3283856-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\StartScreen.png</Source>
+      <Name>Assets\Bg\StartScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\StartScreen.xnb</Output>
+      <Time>2012-12-24T15:41:03.3513799-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Menu\MenuItem2.png</Source>
+      <Name>Assets\Menu\MenuItem2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Menu\MenuItem2.xnb</Output>
+      <Time>2012-12-25T18:06:40.62603-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Menu\MenuItem0.png</Source>
+      <Name>Assets\Menu\MenuItem0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Menu\MenuItem0.xnb</Output>
+      <Time>2012-12-25T18:06:40.6770946-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Menu\MenuItem1.png</Source>
+      <Name>Assets\Menu\MenuItem1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Menu\MenuItem1.xnb</Output>
+      <Time>2012-12-25T18:06:40.680043-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Menu\MenuItem3.png</Source>
+      <Name>Assets\Menu\MenuItem3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Menu\MenuItem3.xnb</Output>
+      <Time>2012-12-26T10:31:03.6777784-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Images\bck.png</Source>
+      <Name>Assets\Images\bck</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Images\bck.xnb</Output>
+      <Time>2013-02-11T10:54:22.5545984-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Images\PlayerSS.png</Source>
+      <Name>Assets\Images\PlayerSS</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Images\PlayerSS.xnb</Output>
+      <Time>2013-01-05T21:31:01.863744-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\Floor.png</Source>
+      <Name>Assets\Tiles\Floor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\Floor.xnb</Output>
+      <Time>2013-03-27T18:41:33.0850384-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\1.png</Source>
+      <Name>Assets\Tiles\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\1.xnb</Output>
+      <Time>2013-03-27T18:41:51.5334215-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\10.png</Source>
+      <Name>Assets\Tiles\10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\10.xnb</Output>
+      <Time>2013-03-27T18:41:51.5022192-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\11.png</Source>
+      <Name>Assets\Tiles\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\11.xnb</Output>
+      <Time>2013-03-27T18:41:51.5022192-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\12.png</Source>
+      <Name>Assets\Tiles\12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\12.xnb</Output>
+      <Time>2013-03-27T18:41:51.5178197-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\13.png</Source>
+      <Name>Assets\Tiles\13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\13.xnb</Output>
+      <Time>2013-03-27T18:41:51.5178197-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\14.png</Source>
+      <Name>Assets\Tiles\14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\14.xnb</Output>
+      <Time>2013-03-27T18:41:51.5178197-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\15.png</Source>
+      <Name>Assets\Tiles\15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\15.xnb</Output>
+      <Time>2013-03-27T18:41:51.5178197-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\16.png</Source>
+      <Name>Assets\Tiles\16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\16.xnb</Output>
+      <Time>2013-03-27T18:41:51.5334215-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\2.png</Source>
+      <Name>Assets\Tiles\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\2.xnb</Output>
+      <Time>2013-03-27T18:41:51.4398929-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\3.png</Source>
+      <Name>Assets\Tiles\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\3.xnb</Output>
+      <Time>2013-03-27T18:41:51.4554207-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\4.png</Source>
+      <Name>Assets\Tiles\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\4.xnb</Output>
+      <Time>2013-03-27T18:41:51.4554207-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\5.png</Source>
+      <Name>Assets\Tiles\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\5.xnb</Output>
+      <Time>2013-03-27T18:41:51.4710207-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\6.png</Source>
+      <Name>Assets\Tiles\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\6.xnb</Output>
+      <Time>2013-03-27T18:41:51.4710207-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\7.png</Source>
+      <Name>Assets\Tiles\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\7.xnb</Output>
+      <Time>2013-03-27T18:41:51.4866208-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\8.png</Source>
+      <Name>Assets\Tiles\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\8.xnb</Output>
+      <Time>2013-03-27T18:41:51.4866208-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\9.png</Source>
+      <Name>Assets\Tiles\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\9.xnb</Output>
+      <Time>2013-03-27T18:41:51.5022192-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Tiles\Walls.png</Source>
+      <Name>Assets\Tiles\Walls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Tiles\Walls.xnb</Output>
+      <Time>2013-03-28T14:39:21.0208255-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Light\blacksquare.png</Source>
+      <Name>Assets\Light\blacksquare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Light\blacksquare.xnb</Output>
+      <Time>2013-03-30T16:40:29.4753842-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Light\lightmask.png</Source>
+      <Name>Assets\Light\lightmask</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Light\lightmask.xnb</Output>
+      <Time>2013-03-30T16:40:29.4973884-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Images\Player.png</Source>
+      <Name>Assets\Images\Player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Images\Player.xnb</Output>
+      <Time>2013-12-24T18:54:13.9616704-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Images\SmallPlayer.png</Source>
+      <Name>Assets\Images\SmallPlayer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Images\SmallPlayer.xnb</Output>
+      <Time>2014-01-07T22:26:25.2544059-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Images\Enemy.png</Source>
+      <Name>Assets\Images\Enemy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Images\Enemy.xnb</Output>
+      <Time>2014-01-15T22:30:03.9803783-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\WinningTransition.png</Source>
+      <Name>Assets\Bg\WinningTransition</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\WinningTransition.xnb</Output>
+      <Time>2014-01-19T09:14:15.2765678-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Font\BaseFont.spritefont</Source>
+      <Name>Assets\Font\BaseFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Font\BaseFont.xnb</Output>
+      <Time>2012-12-25T12:18:52.2034755-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Font\SpriteFont1.spritefont</Source>
+      <Name>Assets\Font\SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Font\SpriteFont1.xnb</Output>
+      <Time>2013-02-11T14:12:20.7816884-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\Light.fx</Source>
+      <Name>Effects\Light</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Effects\Light.xnb</Output>
+      <Time>2013-03-30T16:37:10.9236749-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\KryptonEffect.fx</Source>
+      <Name>Effects\KryptonEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Effects\KryptonEffect.xnb</Output>
+      <Time>2014-01-09T04:21:39.4132436-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Videos\Intro.wmv</Source>
+      <Name>Assets\Videos\Intro</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Videos\Intro.xnb</Output>
+      <Extra>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Videos\Intro.wmv</Extra>
+      <Time>2012-12-26T10:04:44.3369036-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\Transition\FirstTransition.png</Source>
+      <Name>Assets\Bg\Transition\FirstTransition</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\Transition\FirstTransition.xnb</Output>
+      <Time>2014-01-19T09:12:00.4982546-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\Transition\SecondTransition.png</Source>
+      <Name>Assets\Bg\Transition\SecondTransition</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\Transition\SecondTransition.xnb</Output>
+      <Time>2014-01-19T09:13:01.2700854-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\Transition\TirdTransition.png</Source>
+      <Name>Assets\Bg\Transition\TirdTransition</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\Transition\TirdTransition.xnb</Output>
+      <Time>2014-01-19T09:13:38.2508145-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\Transition\TransitionSprite.png</Source>
+      <Name>Assets\Bg\Transition\TransitionSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\Transition\TransitionSprite.xnb</Output>
+      <Time>2014-03-06T07:32:47.4323812-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\Transition\GameOverSprite.png</Source>
+      <Name>Assets\Bg\Transition\GameOverSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\Transition\GameOverSprite.xnb</Output>
+      <Time>2014-03-06T08:03:53.6414808-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Bg\Transition\WinningSprite.png</Source>
+      <Name>Assets\Bg\Transition\WinningSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\Assets\Bg\Transition\WinningSprite.xnb</Output>
+      <Time>2014-03-06T09:30:04.0790942-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID Null="true" />
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProjectContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProjectContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProject\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-02-08T08:21:03.8342991-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

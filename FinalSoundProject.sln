@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalSoundProject", "FinalSoundProject\FinalSoundProject\FinalSoundProject.csproj", "{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalSoundProjectContent", "FinalSoundProject\FinalSoundProjectContent\FinalSoundProjectContent.contentproj", "{450CC0CE-333F-4224-850F-6C9E63B005F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLibrary", "GameLibrary\GameLibrary.csproj", "{9B5968D7-7427-4738-A48C-1D61FAF42F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krypton", "E:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\Krypton\Krypton.csproj", "{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Debug|x86.ActiveCfg = Debug|x86
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Debug|x86.Build.0 = Debug|x86
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Release|Any CPU.ActiveCfg = Release|x86
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Release|x86.ActiveCfg = Release|x86
+		{E176CD5F-3DDD-44A6-94F0-84EDD34D2EE2}.Release|x86.Build.0 = Release|x86
+		{450CC0CE-333F-4224-850F-6C9E63B005F7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{450CC0CE-333F-4224-850F-6C9E63B005F7}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{450CC0CE-333F-4224-850F-6C9E63B005F7}.Debug|x86.ActiveCfg = Debug|x86
+		{450CC0CE-333F-4224-850F-6C9E63B005F7}.Release|Any CPU.ActiveCfg = Release|x86
+		{450CC0CE-333F-4224-850F-6C9E63B005F7}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{450CC0CE-333F-4224-850F-6C9E63B005F7}.Release|x86.ActiveCfg = Release|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Debug|x86.ActiveCfg = Debug|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Debug|x86.Build.0 = Debug|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Release|Any CPU.ActiveCfg = Release|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Release|x86.ActiveCfg = Release|x86
+		{9B5968D7-7427-4738-A48C-1D61FAF42F69}.Release|x86.Build.0 = Release|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Debug|x86.ActiveCfg = Debug|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Debug|x86.Build.0 = Debug|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Release|Any CPU.ActiveCfg = Release|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Release|x86.ActiveCfg = Release|x86
+		{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

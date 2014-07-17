@@ -1,0 +1,12 @@
+C:\Users\Elhamer\documents\visual studio 2010\Projects\FinalSoundProject\GameLibrary\bin\x86\Debug\GameLibrary.dll
+C:\Users\Elhamer\documents\visual studio 2010\Projects\FinalSoundProject\GameLibrary\bin\x86\Debug\GameLibrary.pdb
+C:\Users\Elhamer\documents\visual studio 2010\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Elhamer\documents\visual studio 2010\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Elhamer\documents\visual studio 2010\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.dll
+C:\Users\Elhamer\documents\visual studio 2010\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.pdb
+C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\GameLibrary\bin\x86\Debug\GameLibrary.dll
+C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\GameLibrary\bin\x86\Debug\GameLibrary.pdb
+C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.dll
+C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.pdb
