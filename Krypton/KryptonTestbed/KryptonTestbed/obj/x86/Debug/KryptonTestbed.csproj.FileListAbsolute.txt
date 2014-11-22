@@ -1,0 +1,29 @@
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Content\KryptonEffect.xnb
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbed\bin\x86\Debug\KryptonTestbed.exe
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbed\bin\x86\Debug\KryptonTestbed.pdb
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Krypton.dll
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Krypton.pdb
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbed\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbed\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbed\obj\x86\Debug\KryptonTestbed.exe
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbed\obj\x86\Debug\KryptonTestbed.pdb
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Content\KryptonEffect.xnb
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\KryptonTestbed.exe
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\KryptonTestbed.pdb
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Krypton.dll
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Krypton.pdb
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbed\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbed\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbed\obj\x86\Debug\KryptonTestbed.exe
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbed\obj\x86\Debug\KryptonTestbed.pdb
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Content\KryptonEffect.xnb
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\KryptonTestbed.exe
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\KryptonTestbed.pdb
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Krypton.dll
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Krypton.pdb
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\obj\x86\Debug\KryptonTestbed.csprojResolveAssemblyReference.cache
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\obj\x86\Debug\KryptonTestbed.exe
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\obj\x86\Debug\KryptonTestbed.pdb
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Content\image.xnb
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbed\bin\x86\Debug\Content\BaseFont.xnb

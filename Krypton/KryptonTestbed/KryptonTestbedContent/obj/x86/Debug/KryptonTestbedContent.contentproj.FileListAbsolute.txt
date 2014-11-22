@@ -1,0 +1,3 @@
+C:\Users\Christopher\Desktop\Krypton\KryptonTestbed\KryptonTestbedContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Christopher\Desktop\Krypton v2.0\KryptonTestbed\KryptonTestbedContent\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\KryptonTestbed\KryptonTestbedContent\obj\x86\Debug\KryptonTestbedContent.contentprojResolveAssemblyReference.cache
