@@ -1,2 +1,3 @@
 C:\Users\Elhamer\documents\visual studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProjectContent\obj\x86\Debug\FinalSoundProjectContent.contentprojResolveAssemblyReference.cache
 C:\Users\Usama\Documents\Visual Studio 2010\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProjectContent\obj\x86\Debug\FinalSoundProjectContent.contentprojResolveAssemblyReference.cache
+C:\Users\Elhamer Oussama\Documents\Projects\FinalSoundProject\FinalSoundProject\FinalSoundProjectContent\obj\x86\Debug\FinalSoundProjectContent.contentprojResolveAssemblyReference.cache

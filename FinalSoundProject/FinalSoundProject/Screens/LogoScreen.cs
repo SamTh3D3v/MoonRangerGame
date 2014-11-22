@@ -39,14 +39,15 @@ namespace FinalSoundProject.Screens
             player.Play(startVideo);
             base.LoadContent();
         }
-        public override void Update(GameTime gameTime) {
+        public override void Update(GameTime gameTime)
+        {
             if (InputHundler.KeyReleased(Keys.Enter))
             {
                 player.Stop();
             }
-            if (player.State==MediaState.Stopped)
+            if (player.State == MediaState.Stopped)
             {
-               StateManager.ChangeState(GameRef.menuScreen); 
+                StateManager.ChangeState(GameRef.menuScreen);
             }
 
 

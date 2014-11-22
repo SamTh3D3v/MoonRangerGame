@@ -114,13 +114,13 @@
       <Project>{9B5968D7-7427-4738-A48C-1D61FAF42F69}</Project>
       <Name>GameLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Krypton\Krypton\Krypton.csproj">
+      <Project>{b1bfcb2a-c001-4dac-ba7d-b68bf28757f3}</Project>
+      <Name>Krypton</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FinalSoundProjectContent\FinalSoundProjectContent.contentproj">
       <Name>FinalSoundProjectContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>
-    </ProjectReference>
-    <ProjectReference Include="E:\MyStuff\DeveloppementZone\Ressources\Xna\Krypton v2.0_2\Krypton v2.0\Krypton\Krypton.csproj">
-      <Project>{B1BFCB2A-C001-4DAC-BA7D-B68BF28757F3}</Project>
-      <Name>Krypton</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
