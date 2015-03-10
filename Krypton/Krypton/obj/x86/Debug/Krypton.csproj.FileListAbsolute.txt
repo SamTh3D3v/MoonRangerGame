@@ -28,3 +28,9 @@ C:\Users\Elhamer Oussama\Documents\Projects\FinalSoundProject\Krypton\Krypton\ob
 C:\Users\Elhamer Oussama\Documents\Projects\FinalSoundProject\Krypton\Krypton\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Elhamer Oussama\Documents\Projects\FinalSoundProject\Krypton\Krypton\obj\x86\Debug\Krypton.dll
 C:\Users\Elhamer Oussama\Documents\Projects\FinalSoundProject\Krypton\Krypton\obj\x86\Debug\Krypton.pdb
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\Krypton\Krypton\bin\x86\Debug\Krypton.dll
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\Krypton\Krypton\bin\x86\Debug\Krypton.pdb
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\Krypton\Krypton\obj\x86\Debug\Krypton.csprojResolveAssemblyReference.cache
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\Krypton\Krypton\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\Krypton\Krypton\obj\x86\Debug\Krypton.dll
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\Krypton\Krypton\obj\x86\Debug\Krypton.pdb

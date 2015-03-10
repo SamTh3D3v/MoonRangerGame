@@ -17,7 +17,7 @@ namespace FinalSoundProject.Screens
 {
     public class LogoScreen : GameStateBase
     {
-        #region Field
+        #region Fields
         Texture2D backgroundImage;
         private Video startVideo;
         private VideoPlayer player;

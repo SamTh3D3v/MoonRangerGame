@@ -16,3 +16,9 @@ C:\Users\Elhamer Oussama\Documents\Projects\FinalSoundProject\GameLibrary\obj\x8
 C:\Users\Elhamer Oussama\Documents\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Elhamer Oussama\Documents\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.dll
 C:\Users\Elhamer Oussama\Documents\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.pdb
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\GameLibrary\bin\x86\Debug\GameLibrary.dll
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\GameLibrary\bin\x86\Debug\GameLibrary.pdb
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.dll
+C:\Users\Elhamer Oussama\Documents\SourceCodes\Projects\FinalSoundProject\GameLibrary\obj\x86\Debug\GameLibrary.pdb
