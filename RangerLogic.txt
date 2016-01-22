@@ -1,0 +1,26 @@
+- A ranger has a Maximum amount of Power, and a current amount of power. The current amount is visualised using the light waves arround the ranger,
+and in numbers in the GamePlay panel.
+- A ranger can suck power from his enemies if they have less then him power.
+- Each gun shot makes u loose power 
+- A ranger can also suck power from other source of power objects on his way,
+- The Enemies can't suck power from those objects 
+- Walking also consume an amount of data 
+- the Ranger can attach to him self other extensions that he will find on his way
+    - Attaching an elements consume data
+	- Activating the element also consume data, for example the helicopter extension consume more data than the weels
+- To save some data the ranger can at any time loose one of his gears or tools 
+
+
+- there are diferent kind of powers, to consume that data the ranger needs to have the appropriete transformer
+
+
+
+>>The Enemies
+
+- If the enemy is alive then if he touch the ranger, the power will pass from the ranger to the enemy.
+- If the enemy is dead the Ranger will take the enemie's power
+- when you kill the enemy, an elecricity like effect will appear.
+
+
+-each enemy have an active area circle, like a radar, if the enemy sence that the ranger power is whithin his actiVE erea the pursuite will starts
+
