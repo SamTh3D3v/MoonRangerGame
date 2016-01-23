@@ -26,7 +26,7 @@ namespace GameLibrary.TileEngine
         #region Methods
         public Tile(int tileIndex, int tileset)
         {
-            TileIndex = tileIndex; 
+            TileIndex =  tileIndex; 
             Tileset = tileset;
         }
         #endregion

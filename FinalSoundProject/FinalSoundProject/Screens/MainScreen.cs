@@ -54,11 +54,13 @@ namespace FinalSoundProject.Screens
         Texture2D backgroundImage;
         TileSet tilesetFloor;
         TileSet tilesetWalls;
+        TileSet tilesetGears;
         TileMap map;
         public static int[,] wallsPlan;
+        public static int[,] gearsPlan;
         Player player;
         private Enemy enemy;
-        private List<Enemy> enemies; 
+        private List<Enemy> enemies;
         public Player mainPlayer;
         SpriteFont font;
         public GameLibrary.TileEngine.Camera camera;
@@ -89,7 +91,7 @@ namespace FinalSoundProject.Screens
             engine = new TileEngine(TileSize);
             camera = new GameLibrary.TileEngine.Camera(GameRef.ScreenRectangle);
             SetUpStartingEndPositions();
-           
+
         }
         private void SetUpStartingEndPositions()
         {
@@ -148,7 +150,7 @@ namespace FinalSoundProject.Screens
                                                    {Moves.ForWard, new Vector3(0,2,0)},
                                                    {Moves.BackWard, new Vector3(0,2,3)}
                                                 };
-            enemy = new Enemy(GameRef, Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30), new Vector2(400, 250), camera, _mvsEnemy, Moves.Left, 5, 8,new Rectangle(2*TileSize,2*TileSize,20*TileSize,20*TileSize), 20);
+            enemy = new Enemy(GameRef, Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30), new Vector2(400, 250), camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(2 * TileSize, 2 * TileSize, 20 * TileSize, 20 * TileSize), 20);
             Components.Add(enemy);
             //SetUpEnemies();
             // 8 rect * 66 px
@@ -157,9 +159,13 @@ namespace FinalSoundProject.Screens
 
             Texture2D wallsTileSetTexture = Game.Content.Load<Texture2D>(@"Assets\Tiles\Walls");
             tilesetWalls = new TileSet(wallsTileSetTexture, 8, 2, 66);
-            List<TileSet> listTileSets = new List<TileSet>();
-            listTileSets.Add(tilesetFloor);
-            listTileSets.Add(tilesetWalls);
+
+            Texture2D gearsTileSetTexture = Game.Content.Load<Texture2D>(@"Assets\Tiles\Gears");
+            tilesetGears = new TileSet(gearsTileSetTexture, 8, 2, 66);
+
+
+            List<TileSet> listTileSets = new List<TileSet> { tilesetFloor, tilesetWalls,tilesetGears };
+
             List<MapLayer> mapLayers = new List<MapLayer>();
             MapLayer layer = new MapLayer(MapWidthInTiles, MapHightInTiles);
             Random rand = new Random();
@@ -173,7 +179,7 @@ namespace FinalSoundProject.Screens
                 }
             }
             //Krypton
-           
+
             // Components.Add(Krypton);
 
 
@@ -187,7 +193,7 @@ namespace FinalSoundProject.Screens
                 for (int j = 0; j < wallsLayer.Width; j++)
                 {
 
-                    int index = rand.Next(0, 16);
+                    int index = rand.Next(0, 16);                                     
                     Tile tile = new Tile(wallsPlan[j, i], 1);
                     wallsLayer.SetTile(i, j, tile);
 
@@ -201,7 +207,36 @@ namespace FinalSoundProject.Screens
                 }
             }
             mapLayers.Add(wallsLayer);
+
+            MapLayer gearsLayer = new MapLayer(MapWidthInTiles, MapHightInTiles);
+
+            for (int i = 0; i < gearsLayer.Height; i++)
+            {
+                for (int j = 0; j < gearsLayer.Width; j++)
+                {
+
+                    int index = rand.Next(0, 16);
+                    Tile tile =new Tile(gearsPlan[j, i], 2);
+                    gearsLayer.SetTile(i, j, tile);
+
+                    if (wallsPlan[j, i] != 8)
+                    {
+                        var hull = ShadowHull.CreateRectangle(new Vector2(TileSize, TileSize));
+                        hull.Position.X = i * TileSize + TileSize / 2;
+                        hull.Position.Y = -(j * TileSize + TileSize / 2);
+                        Krypton.Hulls.Add(hull);
+                    }
+                }
+            }
+            mapLayers.Add(gearsLayer);
+
+
+
+
+
             map = new TileMap(listTileSets, mapLayers);
+
+            //****
             //Light 
             lightMskTex = Content.Load<Texture2D>(@"Assets\Light\lightmask");
             blackSquare = Content.Load<Texture2D>(@"Assets\Light\blacksquare");
@@ -216,7 +251,7 @@ namespace FinalSoundProject.Screens
         private void SetUpEnemies()
         {
             enemies = new List<Enemy>();
-             Dictionary<Moves, Vector3> _mvsEnemy = new Dictionary<Moves, Vector3>()
+            Dictionary<Moves, Vector3> _mvsEnemy = new Dictionary<Moves, Vector3>()
                                                 {
                                                    {Moves.Left, new Vector3(0,2,2)},
                                                    {Moves.Right, new Vector3(0,2,1)},
@@ -233,7 +268,7 @@ namespace FinalSoundProject.Screens
                     enemies.Add(new Enemy(GameRef, GameRef.Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30),
                             new Vector2(18, 13) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(16 * TileSize, 8 * TileSize, 10 * TileSize, 10 * TileSize), 20f));
                     enemies.Add(new Enemy(GameRef, GameRef.Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30),
-                            new Vector2(18, 9) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(10 * TileSize, 5 * TileSize, 10 * TileSize, 5 * TileSize), 20f));                       
+                            new Vector2(18, 9) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(10 * TileSize, 5 * TileSize, 10 * TileSize, 5 * TileSize), 20f));
                     break;
                 case 2:
                     //new Type Of Enemies
@@ -244,7 +279,7 @@ namespace FinalSoundProject.Screens
                     enemies.Add(new Enemy(GameRef, GameRef.Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30),
                             new Vector2(18, 13) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(), 20f));
                     enemies.Add(new Enemy(GameRef, GameRef.Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30),
-                            new Vector2(18, 9) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(), 20f)); 
+                            new Vector2(18, 9) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(), 20f));
                     break;
                 case 3:
                     //new Type Of Enemies
@@ -255,7 +290,7 @@ namespace FinalSoundProject.Screens
                     enemies.Add(new Enemy(GameRef, GameRef.Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30),
                             new Vector2(18, 13) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(), 20f));
                     enemies.Add(new Enemy(GameRef, GameRef.Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30),
-                            new Vector2(18, 9) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(), 20f)); 
+                            new Vector2(18, 9) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(), 20f));
                     break;
                 case 4:
                     //new Type Of Enemies
@@ -266,15 +301,15 @@ namespace FinalSoundProject.Screens
                     enemies.Add(new Enemy(GameRef, GameRef.Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30),
                             new Vector2(18, 13) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(), 20f));
                     enemies.Add(new Enemy(GameRef, GameRef.Content.Load<Texture2D>(@"Assets\Images\Enemy"), new Point(30, 30),
-                            new Vector2(18, 9) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(), 20f)); 
+                            new Vector2(18, 9) * TileSize, camera, _mvsEnemy, Moves.Left, 5, 8, new Rectangle(), 20f));
                     break;
 
             }
             foreach (var item in enemies)
             {
                 Components.Add(item);
-            }           
-            
+            }
+
         }
 
         public void NewLevel()
@@ -326,6 +361,49 @@ namespace FinalSoundProject.Screens
                             {1,8,8,8,8,8,1,8,8,8,1,8,8,8,0,8,8,8,8,1,8,8,8,8,0,8,8,8,8,8,8,8,8,8,8,8,8,8,8,15},
                             {1,0,4,0,8,8,0,8,8,0,0,0,8,8,8,8,8,8,8,0,8,8,8,8,8,8,8,0,8,8,0,8,8,8,0,8,8,8,8,8},
                             {0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,15},
+                         };
+                    gearsPlan = new int[,]
+                         {
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,2,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,0,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,2,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,0,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1,8,8,8,8,8,8,8,8,8,2,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,0,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,3,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,4,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,0,8,8,8,8,8,8,8,8,1,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,3,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,4,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
+                            {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8},
                          };
                     break;
                 case 2:
@@ -497,7 +575,7 @@ namespace FinalSoundProject.Screens
                 SetUpEnemies();
             }
         }
-        
+
         public override void Update(GameTime gameTime)
         {
             if (InputHundler.KeyPressed(Keys.Escape))
@@ -519,7 +597,7 @@ namespace FinalSoundProject.Screens
                     light = Light.OFF;
                 }
             }
-           
+
             if (mainPlayer.SprtSheet.Position.X > StartEndPositions[Stage - 1][1].X * TileSize && mainPlayer.SprtSheet.Position.Y > StartEndPositions[Stage - 1][1].Y * TileSize)
             {
                 //Do The Transition                
